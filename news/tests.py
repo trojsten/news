@@ -18,7 +18,6 @@ class NewsTest(TestCase):
             username="TestUser",
             first_name="Jozko",
             last_name="Mrkvicka",
-            graduation=2014,
         )
 
     def test_invalid_news(self):
@@ -59,7 +58,6 @@ class NewsTest(TestCase):
             username="TestStaff",
             first_name="Jozko",
             last_name="Veduci",
-            graduation=2014,
         )
         staff_user.is_staff = True
         staff_user.save()
