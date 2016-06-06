@@ -1,5 +1,5 @@
 =============================
-trojsten_django_news
+django-trojsten-news
 =============================
 
 .. image:: https://badge.fury.io/py/django-trojsten-news.png
@@ -23,7 +23,7 @@ Quickstart
 
 Install trojsten_django_news::
 
-    pip install news
+    pip install django-trojsten-news
 
 Then use it in a project::
 
@@ -32,7 +32,9 @@ Then use it in a project::
 Features
 --------
 
-* TODO
+* News
+* Markdown
+* Rss feed
 
 Running Tests
 --------------
@@ -42,8 +44,8 @@ Does the code actually work?
 ::
 
     source <YOURVIRTUALENV>/bin/activate
-    (myenv) $ pip install -r requirements-test.txt
-    (myenv) $ python runtests.py
+    (myenv) $ pip install -r requirements_dev.txt
+    (myenv) $ python example/manage.py test
 
 Credits
 ---------
