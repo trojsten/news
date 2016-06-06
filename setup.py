@@ -42,7 +42,7 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='news',
+    name='django-trojsten-news',
     version=version,
     description="""News for django, used in Trojsten seminary web apps""",
     long_description=readme + '\n\n' + history,
