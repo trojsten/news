@@ -2,8 +2,8 @@
 trojsten_django_news
 =============================
 
-.. image:: https://badge.fury.io/py/news.png
-    :target: https://badge.fury.io/py/news
+.. image:: https://badge.fury.io/py/django-trojsten-news.png
+    :target: https://badge.fury.io/py/django-trojsten-news
 
 .. image:: https://travis-ci.org/trojsten/news.png?branch=master
     :target: https://travis-ci.org/trojsten/news
