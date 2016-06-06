@@ -11,7 +11,7 @@ django-trojsten-news
 .. image:: https://codecov.io/gh/trojsten/news/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/trojsten/news
 
-News for django used in trojsten seminary web apps
+News for django used in Trojsten seminary web apps
 
 Documentation
 -------------
