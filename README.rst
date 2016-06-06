@@ -9,7 +9,7 @@ trojsten_django_news
     :target: https://travis-ci.org/trojsten/news
 
 .. image:: https://codecov.io/gh/trojsten/news/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/trojsten/news
+    :target: https://codecov.io/gh/trojsten/news
 
 News for django used in trojsten seminary web apps
 
