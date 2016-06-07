@@ -13,11 +13,6 @@ django-trojsten-news
 
 News for django used in Trojsten seminary web apps
 
-Documentation
--------------
-
-The full documentation is at https://news.readthedocs.org.
-
 Quickstart
 ----------
 
