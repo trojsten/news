@@ -29,7 +29,7 @@ Features
 
 * News
 * Markdown
-* Rss feed
+* RSS feed
 
 Running Tests
 --------------
