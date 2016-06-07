@@ -10,3 +10,4 @@ Development Lead
 Contributors
 ------------
 * Michal Petrucha <koniiiik@koniiiik.org>
+* Barbora Klembarová
