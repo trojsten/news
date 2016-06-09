@@ -33,4 +33,6 @@ class Entry(models.Model):
         return self.title
 
     def rendered_text(self):
-        return mark_safe(markdown(self.text, safe_mode=False))
+        return mark_safe(markdown(self.text, kwargs=getattr(
+            settings, 'NEWS_MARKDOWN_KWARGS', {'safe_mode': True}
+        )))
