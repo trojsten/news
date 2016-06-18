@@ -1,7 +1,7 @@
 from django.contrib import admin
+from django.db import models
 from easy_select2.widgets import Select2Multiple
-
-from news.models import *
+from news.models import Entry
 
 
 class EntryAdmin(admin.ModelAdmin):
