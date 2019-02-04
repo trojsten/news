@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='entry',
             name='author',
-            field=models.ForeignKey(related_name='news_entries', to=settings.AUTH_USER_MODEL),
+            field=models.ForeignKey(related_name='news_entries', to=settings.AUTH_USER_MODEL, on_delete=models.CASCADE),
         ),
         migrations.AddField(
             model_name='entry',
