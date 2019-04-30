@@ -16,6 +16,6 @@ class EntryListView(ListView):
         try:
             return self.model.objects.filter(
                 sites__id__exact=get_current_site(self.request).id
-            )
+            ).prefetch_related('tags').select_related('author')
         except Site.DoesNotExist:
-            return self.model.objects.all()
+            return self.model.objects.all().prefetch_related('tags').select_related('author')
