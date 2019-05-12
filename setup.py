@@ -24,7 +24,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='django-trojsten-news',
-    version='0.2.1',
+    version='0.2.2',
     description="""News for django, used in Trojsten seminary web apps""",
     long_description=readme + '\n\n' + history,
     author='Michal Hozza',
