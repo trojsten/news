@@ -50,3 +50,6 @@ docs/_build
 
 # Other:
 .venv
+
+# VSCode
+.vscode
