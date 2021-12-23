@@ -40,6 +40,7 @@ setup(
         "Markdown",
         "django-taggit",
         "django-easy-select2",
+        "six",
     ],
     license="BSD",
     zip_safe=False,
